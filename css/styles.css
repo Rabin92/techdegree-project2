@@ -1,0 +1,357 @@
+
+/* Base Styles ---- STARTS */
+
+* {
+    box-sizing: border-box;
+}
+
+:any-link {
+    color: rgba(9, 21, 21, 0.61);
+}
+
+a:hover {
+    color: #2f4f4f;
+}
+
+body {  
+    font: normal 1.1em/1.5 "Ubuntu", sans-serif;      /* Shorthand: font-weight, font-size, lin-height and font-family; */
+    background-image: linear-gradient(to left,#fafafa, #a9a9a9);
+} 
+
+.main-column,
+.skills {
+    box-shadow: 0.10px 0.10px 1px rgba(63, 61, 61, 0.8);
+    border-radius: 10px;
+}
+
+
+.article-image {
+    box-shadow: 3px 3px 4px rgba(63, 61, 61, 0.8);
+}
+
+.profile-pic {
+    box-shadow:  1px 1px 4px rgba(63, 61, 61, 0.8);
+}
+
+.article-header {
+    padding-top: 1.1em;
+}
+
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.text-heading{
+    padding: 4% 0 2% 0;
+}
+
+.name {
+    font-size: 1.750rem;
+    color: #2f4f4f;
+}
+
+.footer-name {
+    color: #2f4f4f;
+}
+
+.contact,
+.skills,
+.bottom,
+address {
+        margin-top: 1.875rem;                           /* 30px / 16px */
+}
+
+.footer-name,
+.top-button {
+    font-size: 1rem;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+
+/* Header Section ---- STARTS */
+
+.text-heading {
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.5625em;                 /* 25px / 16px */
+    text-transform: uppercase;
+}
+
+.main-nav,
+.name {
+    margin-top: 4%;
+}
+
+.header-content {
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+ul li,
+a {
+    display: block;
+    background: #fff;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+}
+
+.intro {
+    margin-top: 1.25rem;                        /* 20px / 16px */
+}
+
+.profile-pic,
+.text-intro {
+    margin-top: 1.875rem;                        /* 30px / 16px */
+}
+
+.text-intro {
+    margin-right: 1.875rem;
+}
+
+/* Main Section ---- STARTS */
+
+.main-column,
+.col {
+    margin-top: 1.875rem;
+    background: #fff;
+    padding-bottom: 0.5em;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/* Skills Section ---- STARTS */
+
+.skills {
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: #fff;
+}
+
+.web-lang {
+    margin: 15px 0 20px 0;
+}
+
+/* Contact Section ---- STARTS */
+
+.phone {
+    display: inline;
+    background: none;
+    color: initial;
+}
+
+.email {
+    display: inline;
+    background: none;
+    color: initial;
+}
+
+.contact {
+    text-align: center;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+#line {
+    margin-top: 3.75rem;
+}
+
+/* Footer Section ---- STARTS */
+
+footer {
+    margin-bottom: 3.85em;                 /* 60px / 16px */
+}
+
+.nav-footer li {
+    display: none;                          /* Hides footer navigation on small screens. */
+}
+
+.footer-name {
+    float: left;
+    margin: 0;
+}
+.top-button {
+    float: right;
+    background: none;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0 10px 0 0;
+}
+
+
+
+/* Media Queries ---- STARTS */
+
+@media (min-width: 768px) {
+
+    /* Body Section ---- STARTS */
+
+    .container {
+        min-height: calc(100vh - 46px);         /* Sticky footer by using a calc function! */
+    }
+
+    .name, 
+    .footer-name {
+        font-size: 1.3125rem;                   /* 21px / 16px */
+    }
+
+    .main-nav li,
+    .nav-footer li {
+        font-size: 1.125rem;                    /* 18px / 16px */
+    }
+
+    .main-nav,
+    .nav-footer {
+        font-size: 1.125rem;
+        text-align: center;
+    }
+
+/* Header Section ---- STARTS */
+
+    .name,
+    .main-nav li {
+        display: inline-block;
+        background: none;
+    }
+
+    ul li a {
+        background: none;
+    }
+
+    .intro {
+        text-align: left;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+/* Main Section ---- STARTS */
+
+   .wrap {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .main-column {
+        background: #fff;
+        text-align: center;
+    }
+
+    .col {
+        float: left;
+    }
+
+    .marketing,
+    .search,
+    .travel,
+    .map,
+    .photo,
+    .calculator {
+        width: 50%;
+        height: 23.4375rem;
+    }
+
+    .clearfix::after {                      /* Clearing floats with clearfix */
+		content: " ";
+		display: table;
+		clear: both;
+    }
+
+/* Footer Section ---- STARTS */  
+
+    .contact {
+        margin-top: 1.875rem;               /* 30px / 16px */
+    }
+    
+/* Footer Section ---- STARTS */  
+
+    footer {
+        margin-bottom: 0.3125rem;           /* 5px / 16px */
+    }
+
+    .top-button {
+        display: none;                      /* Hides a Back to Top link on large screens. */
+    }
+
+    .nav-footer {
+        float: right;
+        margin-top: 1.25em;                     /* 20px / 16px */
+    }
+
+    .footer-name {
+        float: left;
+        margin-top: 1.25em;                     /* 20px / 16px */
+    }
+
+    .nav-footer li {
+        display: inline-block;
+        background: none;
+        margin-right: -0.8333em;                /* 15px / 18px (Remove Gaps with negative values) */
+    }
+}
+    
+
+
+@media (min-width: 1024px) {
+
+/* Layout Section ---- STARTS */
+
+    .wrap {
+        width: 80%;
+        max-width: 1150px;
+    }
+
+    .marketing,
+    .search,
+    .travel,
+    .map,
+    .photo,
+    .calculator {
+        width: 33.333%;
+    }
+
+    
+/* Header Section ---- STARTS */
+
+    p {
+        font-size: 1.1875rem;                   /* 19px / 16px */
+    }
+
+    .name {
+        float: left;
+        margin-top: 1.25em;                     /* 20px / 16px */
+    }
+
+    .main-nav {
+        float: right;
+        margin-top: 1.25em;                     /* 20px / 16px */
+    }
+
+    .main-nav li {
+        text-align: right;
+        display: inline-block;
+        background: none;
+        margin-right: -0.8333em;                /* 15px / 18px (Remove Gaps with negative values) */
+    }
+
+    .header-content {
+        text-align: left;
+    }
+
+    .marketing,
+    .search,
+    .travel,
+    .map,
+    .photo,
+    .calculator {
+        height: 23.125rem;
+    }
+}
