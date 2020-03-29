@@ -13,6 +13,10 @@ a:hover {
     color: #2f4f4f;
 }
 
+a:visited {
+    color: #191970;
+}
+
 body {  
     font: normal 1.1em/1.5 "Ubuntu", sans-serif;      /* Shorthand: font-weight, font-size, lin-height and font-family; */
     background-image: linear-gradient(to left,#fafafa, #a9a9a9);
