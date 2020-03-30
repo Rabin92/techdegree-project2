@@ -251,6 +251,7 @@ footer {
 
     .col {
         float: left;
+        min-height: 23.5em;
     }
 
     .marketing,
@@ -260,7 +261,6 @@ footer {
     .photo,
     .calculator {
         width: 50%;
-        height: 23.4375rem;
     }
 
     .clearfix::after {                      /* Clearing floats with clearfix */
@@ -348,14 +348,5 @@ footer {
 
     .header-content {
         text-align: left;
-    }
-
-    .marketing,
-    .search,
-    .travel,
-    .map,
-    .photo,
-    .calculator {
-        height: 23.125rem;
     }
 }
