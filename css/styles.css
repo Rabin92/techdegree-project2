@@ -250,7 +250,7 @@ footer {
 
     .col {
         float: left;
-        min-height: 25.937em;
+        min-height: 402.95px;
     }
 
     .marketing,
@@ -268,7 +268,7 @@ footer {
 		clear: both;
     }
 
-/* Footer Section ---- STARTS */  
+/* Contact Section ---- STARTS */  
 
     .contact {
         margin-top: 1.875rem;               /* 30px / 16px */
