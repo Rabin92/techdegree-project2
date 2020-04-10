@@ -1,5 +1,5 @@
 
-/* Base Styles ---- STARTS */
+/* ************************* BASE STYLES ---- STARTS ************************ */
 
 * {
     box-sizing: border-box;
@@ -18,7 +18,7 @@ a:visited {
 }
 
 body {  
-    font: normal 1.1em/1.5 "Ubuntu", sans-serif;      /* Shorthand: font-weight, font-size, lin-height and font-family; */
+    font: normal 1.1em/1.5 "Ubuntu", sans-serif;                        /* Shorthand: font-weight, font-size, lin-height and font-family; */
     background-image: linear-gradient(to left,#fafafa, #a9a9a9);
 } 
 
@@ -84,11 +84,11 @@ img {
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
-#contact {
+#contact:target {
     box-shadow: none;
 }
 
-/* Header Section ---- STARTS */
+/* ***************************** HEADER SECTION ***************************** */
 
 .text-heading {
     font-family: 'Fredoka One', cursive;
@@ -128,7 +128,7 @@ a {
     margin-right: 1.875rem;
 }
 
-/* Main Section ---- STARTS */
+/* ****************************** MAIN SECTION ****************************** */
 
 .main-column,
 .col {
@@ -153,7 +153,7 @@ a {
     margin: 15px 0 20px 0;
 }
 
-/* Contact Section ---- STARTS */
+/* ***************************** CONTACT SECTION **************************** */
 
 .phone {
     display: inline;
@@ -177,7 +177,7 @@ a {
     margin-top: 3.75rem;
 }
 
-/* Footer Section ---- STARTS */
+/* ***************************** FOOTER SECTION ***************************** */
 
 footer {
     margin-bottom: 3.85em;                 /* 60px / 16px */
@@ -201,7 +201,7 @@ footer {
 
 
 
-/* Media Queries ---- STARTS */
+/* ******************** MEDIA QUERIES FOR SMALLER SCREENS ******************* */
 
 @media (min-width: 768px) {
 
@@ -295,22 +295,22 @@ footer {
 
     .nav-footer {
         float: right;
-        margin-top: 1.25em;                     /* 20px / 16px */
+        margin-top: 1.25em;                 /* 20px / 16px */
     }
 
     .footer-name {
         float: left;
-        margin-top: 1.25em;                     /* 20px / 16px */
+        margin-top: 1.25em;                  /* 20px / 16px */
     }
 
     .nav-footer li {
         display: inline-block;
         background: none;
-        margin-right: -0.8333em;                /* 15px / 18px (Remove Gaps with negative values) */
+        margin-right: -0.8333em;             /* 15px / 18px (Remove Gaps with negative values) */
     }
 }
-    
 
+/* ******************** MEDIA QUERIES FOR LARGER QUERIES ******************** */
 
 @media (min-width: 1024px) {
 
