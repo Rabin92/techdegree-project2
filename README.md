@@ -2,7 +2,7 @@
 
 ### Project Description
 
-<p>Designing web pages that look and function well on multiple screen sizes. Using HTML, CSS, and responsive design, create a mobile-first web page with a layout that adjusts to fit mobile phones, tablets, and desktop displays.</p>
+<p>Design web pages that look and function well on multiple screen sizes using HTML and CSS. Create a mobile-first web page with a layout that adjusts to fit mobile phones, tablets, and desktop displays.</p>
 
 ### Languages
 
